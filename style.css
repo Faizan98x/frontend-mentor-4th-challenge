@@ -74,6 +74,13 @@ html {
   outline: none;
   font-size: 1rem;
   color: var(--violet);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.text__area__button:hover {
+  background-color: var(--soft__magenta);
+  color: #fff;
 }
 
 .icons__area {
@@ -94,7 +101,7 @@ html {
   color: #fff;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 900px) {
   .huddle {
     background-image: url(./images/bg-desktop.svg);
     padding-inline: 5rem;
